@@ -59,7 +59,7 @@ input::-moz-focus-inner {
 	padding: 0;
 }
 
-input, select, textarea {
+input, select , textarea {
 	-moz-appearance: none;
 	-webkit-appearance: none;
 	-ms-appearance: none;
@@ -114,7 +114,7 @@ input, select, textarea {
 
 	}
 
-	body, input, select, textarea {
+	body, input, select , textarea {
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 17pt;
 		font-weight: 300;
@@ -123,7 +123,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 1680px) {
 
-			body, input, select, textarea {
+			body, input, select , textarea {
 				font-size: 14pt;
 			}
 
@@ -131,7 +131,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 1280px) {
 
-			body, input, select, textarea {
+			body, input, select , textarea {
 				font-size: 12pt;
 			}
 
@@ -139,7 +139,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 360px) {
 
-			body, input, select, textarea {
+			body, input, select , textarea {
 				font-size: 11pt;
 			}
 
@@ -292,7 +292,7 @@ input, select, textarea {
 		text-align: right;
 	}
 
-	input, select, textarea {
+	input, select , textarea {
 		color: #ffffff;
 	}
 
@@ -1992,7 +1992,7 @@ input, select, textarea {
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
-	select,
+	select ,
 	textarea {
 		-moz-appearance: none;
 		-webkit-appearance: none;
@@ -2011,12 +2011,12 @@ input, select, textarea {
 		input[type="text"]:invalid,
 		input[type="password"]:invalid,
 		input[type="email"]:invalid,
-		select:invalid,
+		select :invalid,
 		textarea:invalid {
 			box-shadow: none;
 		}
 
-	select {
+	select  {
 		background-size: 1.25rem;
 		background-repeat: no-repeat;
 		background-position: calc(100% - 1rem) center;
@@ -2025,18 +2025,18 @@ input, select, textarea {
 		text-overflow: ellipsis;
 	}
 
-		select:focus::-ms-value {
+		select :focus::-ms-value {
 			background-color: transparent;
 		}
 
-		select::-ms-expand {
+		select ::-ms-expand {
 			display: none;
 		}
 
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
-	select {
+	select  {
 		height: 2.75em;
 	}
 
@@ -2136,7 +2136,7 @@ input, select, textarea {
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
-	select,
+	select ,
 	textarea {
 		background-color: rgba(255, 255, 255, 0.075);
 		border-color: rgba(255, 255, 255, 0.35);
@@ -2145,17 +2145,17 @@ input, select, textarea {
 		input[type="text"]:focus,
 		input[type="password"]:focus,
 		input[type="email"]:focus,
-		select:focus,
+		select :focus,
 		textarea:focus {
 			border-color: #8cc9f0;
 			box-shadow: 0 0 0 1px #8cc9f0;
 		}
 
-	select {
+	select  {
 		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(255, 255, 255, 0.35)' /%3E%3C/svg%3E");
 	}
 
-		select option {
+		select  option {
 			color: #ffffff;
 			background: #935d8c;
 		}
@@ -3218,7 +3218,7 @@ input, select, textarea {
 		text-align: center;
 	}
 
-		#nav input, #nav select, #nav textarea {
+		#nav input, #nav select , #nav textarea {
 			color: #636363;
 		}
 
@@ -3329,7 +3329,7 @@ input, select, textarea {
 		border-radius: 0.25em;
 	}
 
-		#main input, #main select, #main textarea {
+		#main input, #main select , #main textarea {
 			color: #636363;
 		}
 
@@ -3437,7 +3437,7 @@ input, select, textarea {
 		#main input[type="text"],
 		#main input[type="password"],
 		#main input[type="email"],
-		#main select,
+		#main select ,
 		#main textarea {
 			background-color: rgba(222, 222, 222, 0.25);
 			border-color: #dddddd;
@@ -3446,17 +3446,17 @@ input, select, textarea {
 			#main input[type="text"]:focus,
 			#main input[type="password"]:focus,
 			#main input[type="email"]:focus,
-			#main select:focus,
+			#main select :focus,
 			#main textarea:focus {
 				border-color: #8cc9f0;
 				box-shadow: 0 0 0 1px #8cc9f0;
 			}
 
-		#main select {
+		#main select  {
 			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23dddddd' /%3E%3C/svg%3E");
 		}
 
-			#main select option {
+			#main select  option {
 				color: #636363;
 				background: #ffffff;
 			}
